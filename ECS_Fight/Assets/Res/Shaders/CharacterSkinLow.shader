@@ -51,6 +51,7 @@ Shader "JKX1/Show/CharacterSkinLow"
 			CGPROGRAM
             #pragma target 3.0
 			#pragma skip_variants LIGHTPROBE_SH LIGHTMAP_ON DYNAMICLIGHTMAP_ON VERTEXLIGHT_ON FOG_EXP FOG_EXP2
+			#pragma multi_compile_instancing
 			#pragma multi_compile_fwdbase
 			#pragma multi_compile_fog
 			#pragma vertex vertBase
@@ -74,7 +75,7 @@ Shader "JKX1/Show/CharacterSkinLow"
 			#pragma vertex vertShadowCaster
 			#pragma fragment fragShadowCaster
 
-			#include "TT_UnityStandardShadow.cginc"
+			#include "cgincs/TT_UnityStandardShadow.cginc"
 
 			ENDCG
 		}
@@ -103,7 +104,7 @@ Shader "JKX1/Show/CharacterSkinLow"
 #pragma vertex vertBase
 #pragma fragment fragBase
 #define _SKINLOW 1
-#include "TT_UnityStandardCoreForward.cginc"
+#include "cgincs/TT_UnityStandardCoreForward.cginc"
 
 		ENDCG
 	}

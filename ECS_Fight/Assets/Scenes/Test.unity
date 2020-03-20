@@ -331,8 +331,8 @@ MonoBehaviour:
   unitMat: {fileID: 2100000, guid: ad8a0d5a900bf884ea1efd73526d45ca, type: 2}
   gameObjectPrefab: {fileID: 1837561507990908343, guid: b35f759de464a034aa7e4dd3e1b72b05,
     type: 3}
-  xSize: 80
-  ySize: 80
+  xSize: 10
+  ySize: 10
   spacing: 1
 --- !u!4 &2054773584
 Transform:
@@ -363,3 +363,6 @@ MonoBehaviour:
   MainMaterial: {fileID: 2100000, guid: ad8a0d5a900bf884ea1efd73526d45ca, type: 2}
   MainMesh: {fileID: -4205321593522639172, guid: ffe371033ea2cde4dbde878cabac7472,
     type: 3}
+  xSize: 80
+  ySize: 80
+  spacing: 1
