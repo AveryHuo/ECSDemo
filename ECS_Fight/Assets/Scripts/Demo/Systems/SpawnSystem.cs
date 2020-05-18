@@ -2,6 +2,7 @@
 using Unity.Entities;
 using Unity.Jobs;
 using Unity.Mathematics;
+using Unity.Rendering;
 using UnityEngine;
 using Random = Unity.Mathematics.Random;
 
@@ -14,6 +15,8 @@ namespace Test
         protected override void OnCreate()
         {
             base.OnCreate();
+            World.GetOrCreateSystem<CopySkinnedEntityDataToRenderEntity>().Enabled = false;
+
             _updateQuery = GetEntityQuery(ComponentType.ReadOnly<SpawnComponent>());
             RequireForUpdate(_updateQuery);
             _entityArchetype = EntityManager.CreateArchetype(new ComponentType[]

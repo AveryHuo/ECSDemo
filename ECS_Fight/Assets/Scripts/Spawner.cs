@@ -16,19 +16,18 @@ public class Spawner : MonoBehaviour
     [Range(0.1f,2f)]
     [SerializeField] private float spacing = 1f;
 
-    bool bSet = false;
     private World defaultWorld;
     private Entity entityPrefab;
     private EntityManager entityManager;
     private EntityArchetype entityArcheType;
 
+    private BlobAssetStore blobAssetStore;
     void Start()
     {
         InitEntityManager();
         CreateArcheType();
 
-        var settings = GameObjectConversionSettings.FromWorld(defaultWorld, null);
-        entityPrefab = GameObjectConversionUtility.ConvertGameObjectHierarchy(gameObjectPrefab, settings);
+        blobAssetStore = new BlobAssetStore();
         InstantiateEntityGrid(xSize, ySize, spacing);
     }
 
@@ -47,7 +46,7 @@ public class Spawner : MonoBehaviour
         var renderMeshType = ComponentType.ReadWrite<RenderMesh>();
         var renderBoundsType = ComponentType.ReadWrite<RenderBounds>();
         var localToWorldType = ComponentType.ReadWrite<LocalToWorld>();
-        entityArcheType = entityManager.CreateArchetype( translationType, scaleType, rotationType, renderMeshType,renderBoundsType, localToWorldType);
+        entityArcheType = entityManager.CreateArchetype( translationType, scaleType, renderMeshType, renderBoundsType,  rotationType,  localToWorldType);
     }
 
 
@@ -87,43 +86,12 @@ public class Spawner : MonoBehaviour
         }
     }
 
-    // create a single Entity using the Conversion Workflow
-    private void ConvertToEntity(float3 position)
-    {
-        if (entityManager == null)
-        {
-            Debug.LogWarning("ConvertToEntity WARNING: No EntityManager found!");
-            return;
-        }
-
-        if (gameObjectPrefab == null)
-        {
-            Debug.LogWarning("ConvertToEntity WARNING: Missing GameObject Prefab");
-            return;
-        }
-
-        GameObjectConversionSettings settings = GameObjectConversionSettings.FromWorld(defaultWorld, null);
-        entityPrefab = GameObjectConversionUtility.ConvertGameObjectHierarchy(gameObjectPrefab, settings);
-        
-        Entity myEntity = entityManager.Instantiate(entityPrefab);
-        entityManager.AddComponentData(myEntity, new BoneIndexOffset());
-        entityManager.SetComponentData(myEntity, new Translation
-        {
-            Value = position
-        });
-    }
 
 
     Entity CreateEntity()
     {
-        //GameObjectConversionSettings settings = GameObjectConversionSettings.FromWorld(defaultWorld, null);
-        //entityPrefab = GameObjectConversionUtility.ConvertGameObjectHierarchy(gameObjectPrefab, settings);
-
-        //Entity hero = entityManager.Instantiate(entityPrefab);
         Entity hero = entityManager.CreateEntity(entityArcheType);
-        //Matrix4x4[] matrixList = new Matrix4x4[1023];
-        //Graphics.DrawMeshInstanced(unitMesh, 0, unitMat, matrixList);
-        entityManager.SetComponentData(hero, new Scale()
+        entityManager.AddComponentData(hero, new Scale()
         {
             Value = 1
         });
@@ -133,5 +101,36 @@ public class Spawner : MonoBehaviour
             material = unitMat
         });
         return hero;
+    }
+
+    Entity CreateEntity2()
+    {
+        //BlobAssetStore blobAssetStore = new BlobAssetStore();
+        GameObjectConversionSettings settings = GameObjectConversionSettings.FromWorld(defaultWorld, blobAssetStore);
+        entityPrefab = GameObjectConversionUtility.ConvertGameObjectHierarchy(gameObjectPrefab, settings);
+        //bas.Dispose();
+
+        Entity hero = entityManager.Instantiate(entityPrefab);
+        entityManager.AddComponentData(hero, new BoneIndexOffset());
+        return hero;
+    }
+
+    Entity CreateEntity3()
+    {
+        //BlobAssetStore blobAssetStore = new BlobAssetStore();
+        GameObjectConversionSettings settings = GameObjectConversionSettings.FromWorld(defaultWorld, blobAssetStore);
+        entityPrefab = GameObjectConversionUtility.ConvertGameObjectHierarchy(gameObjectPrefab, settings);
+        //bas.Dispose();
+
+        Entity hero = entityManager.Instantiate(entityPrefab);
+        entityManager.AddComponentData(hero, new BoneIndexOffset());
+        return hero;
+    }
+
+    private void OnDestroy()
+    {
+        // Dispose of the BlobAssetStore, else we're get a message:
+        // A Native Collection has not been disposed, resulting in a memory leak.
+        if (blobAssetStore != null) { blobAssetStore.Dispose(); }
     }
 }
