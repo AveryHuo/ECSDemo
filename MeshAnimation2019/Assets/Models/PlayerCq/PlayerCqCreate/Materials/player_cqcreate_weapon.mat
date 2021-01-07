@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player_cqcreate_weapon
+  m_Shader: {fileID: 4800000, guid: 948afa5ce61c54c7984ab4e0a7c4390c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AnimTextures:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowCubeTex:
+        m_Texture: {fileID: 8900000, guid: 4756a7f81f38c44a7bf13c3e26720e03, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowRampTex:
+        m_Texture: {fileID: 2800000, guid: 7db8a87db6635764d985170699a9c789, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7a966e248922e364eacd429eb763666d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 731b179f7b641284ea198274f5661d3f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AnimTextureIndex: -1
+    - _BloomIntensity: 1
+    - _BloomMask: 0
+    - _BumpScale: 1
+    - _CrossfadeAnimTextureIndex: -1
+    - _CrossfadeEndTime: -1
+    - _CrossfadeStartTime: -1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DiffuseIntensity: 2
+    - _DstBlend: 0
+    - _FlowCubeSpeed: 0.2
+    - _FlowSpecPower1: 33.8
+    - _FlowSpecPower2: 40
+    - _FlowSpecSpeed1: 0.3
+    - _FlowSpecSpeed2: 0.2
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RimDir: 0.75
+    - _RimIntensity: 1
+    - _RimPower: 6
+    - _SmoothnessTextureChannel: 0
+    - _SpecPower: 0.48
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StraightSpec: 0
+    - _StraightSpecDir: 0.5
+    - _StraightSpecIntensity: 1
+    - _StraightSpecPower: 100
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _AnimInfo: {r: 0, g: 0, b: 0, a: 0}
+    - _AnimScalar: {r: 1, g: 1, b: 1, a: 0}
+    - _AnimTimeInfo: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.588, g: 0.588, b: 0.588, a: 1}
+    - _CrossfadeAnimInfo: {r: 0, g: 0, b: 0, a: 0}
+    - _CrossfadeAnimScalar: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissiveCol: {r: 0.1102941, g: 0.08839748, b: 0.08839748, a: 0.197}
+    - _FlowCubeCol: {r: 0.89705884, g: 0.8008024, b: 0.5936419, a: 0.3}
+    - _FlowSpecCol1: {r: 0.5588235, g: 0.21604815, b: 0.11505191, a: 0.5}
+    - _FlowSpecCol2: {r: 0.21788493, g: 0.497815, b: 0.9558824, a: 0.5}
+    - _RampDarkCol: {r: 0.20815311, g: 0.21256413, b: 0.25735295, a: 1}
+    - _RampLightCol: {r: 0.45588237, g: 0.45588237, b: 0.45588237, a: 1}
+    - _RimColor: {r: 1, g: 0.8438134, b: 0.74264705, a: 1}
+    - _SpecCol: {r: 1, g: 1, b: 1, a: 0.5}

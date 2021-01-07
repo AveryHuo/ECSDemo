@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\admin\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\admin\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_MeshAnimation2019.855217507.00" t="ExcludeRecursive" />
+    <e p="E:\Git\ECSDemo\MeshAnimation2019" t="IncludeRecursive">
+      <e p="Animancer.csproj" t="IncludeRecursive" />
+      <e p="Animancer.Examples.csproj" t="IncludeRecursive" />
+      <e p="Animancer.FSM.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="CustomAnimationController.cs" t="Include" />
+        <e p="CustomPlayable.cs" t="Include" />
+        <e p="Editor" t="Include">
+          <e p="ReferenceCollectorEditor" t="Include">
+            <e p="ReferenceGroupCollectorEditor.cs" t="Include" />
+          </e>
+          <e p="SSShaderGUI.cs" t="Include" />
+        </e>
+        <e p="MeshAnimator" t="Include">
+          <e p="Editor" t="Include">
+            <e p="MeshAnimationCreator.cs" t="Include" />
+          </e>
+          <e p="Examples" t="Include">
+            <e p="Example_Crowd" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="CrowdSpawner.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Example_CrowdAI" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="AI_Manager.cs" t="Include" />
+                <e p="AI_Unit.cs" t="Include" />
+                <e p="ArmySpawner.cs" t="Include" />
+                <e p="DelayedDestroy.cs" t="Include" />
+                <e p="MouseOrbitImproved.cs" t="Include" />
+                <e p="PlayerControlled.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Example_PerformanceComparison" t="Include">
+              <e p="AnimatorStateMachine.cs" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="PerformanceTester.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Meshes" t="Include">
+              <e p="BirdModel" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="BoidComponent.cs" t="Include" />
+                </e>
+              </e>
+              <e p="HumanModel" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="SetRandomColor.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Common" t="Include">
+              <e p="Abstraction" t="Include">
+                <e p="IMeshAnimation.cs" t="Include" />
+                <e p="IMeshAnimator.cs" t="Include" />
+              </e>
+              <e p="Compatibility" t="Include">
+                <e p="MecanimMeshAnimatorController.cs" t="Include" />
+              </e>
+              <e p="Core" t="Include">
+                <e p="ExposedTransformCrossfade.cs" t="Include" />
+                <e p="MeshAnimationBase.cs" t="Include" />
+                <e p="MeshAnimationEvent.cs" t="Include" />
+                <e p="MeshAnimatorBase.cs" t="Include" />
+                <e p="MeshAnimatorManager.cs" t="Include" />
+                <e p="MeshFrameDataBase.cs" t="Include" />
+                <e p="MeshNormalMode.cs" t="Include" />
+                <e p="RootMotionMode.cs" t="Include" />
+              </e>
+              <e p="Utilities" t="Include">
+                <e p="AllocatedArray.cs" t="Include" />
+                <e p="Comparers.cs" t="Include" />
+                <e p="GenericObjectPool.cs" t="Include" />
+                <e p="MatrixUtils.cs" t="Include" />
+                <e p="PooledDictionary.cs" t="Include" />
+              </e>
+            </e>
+            <e p="ShaderAnimated" t="Include">
+              <e p="ShaderMeshAnimation.cs" t="Include" />
+              <e p="ShaderMeshAnimator.cs" t="Include" />
+            </e>
+            <e p="Snapshot" t="Include">
+              <e p="SnapshotMeshAnimation.cs" t="Include" />
+              <e p="SnapshotMeshAnimator.cs" t="Include" />
+              <e p="SnapshotMeshFrameData.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ShaderGraph" t="Include">
+            <e p="MeshAnimator.hlsl" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="MeshAnimator-Mobile-BumpSpec.shader" t="Include" />
+            <e p="MeshAnimator-Mobile-Diffuse-ColoredShirtExample.shader" t="Include" />
+            <e p="MeshAnimator-Mobile-Diffuse.shader" t="Include" />
+            <e p="MeshAnimator-Normal-Diffuse.shader" t="Include" />
+            <e p="MeshAnimator-Standard.shader" t="Include" />
+            <e p="MeshAnimator-Unlit-Alpha.shader" t="Include" />
+            <e p="MeshAnimator-Unlit-AlphaTest.shader" t="Include" />
+            <e p="MeshAnimator-Unlit-Color.shader" t="Include" />
+            <e p="MeshAnimator-Unlit-Texture.shader" t="Include" />
+            <e p="MeshAnimator.cginc" t="Include" />
+            <e p="MeshAnimator.hlsl" t="Include" />
+            <e p="MeshAnimatorStandardBase.cginc" t="Include" />
+            <e p="MeshAnimatorStandardDeferred.cginc" t="Include" />
+            <e p="MeshAnimatorStandardForward.cginc" t="Include" />
+            <e p="MeshAnimatorStandardMeta.cginc" t="Include" />
+            <e p="MeshAnimatorStandardShadow.cginc" t="Include" />
+            <e p="URP" t="Include">
+              <e p="MeshAnimator-URP-DepthOnlyPass.hlsl" t="Include" />
+              <e p="MeshAnimator-URP-Lit.shader" t="Include" />
+              <e p="MeshAnimator-URP-LitForwardPass.hlsl" t="Include" />
+              <e p="MeshAnimator-URP-LitInput.hlsl" t="Include" />
+              <e p="MeshAnimator-URP-LitMetaPass.hlsl" t="Include" />
+              <e p="MeshAnimator-URP-ShadowCasterPass.hlsl" t="Include" />
+              <e p="MeshAnimator-URP-SimpleLit.shader" t="Include" />
+              <e p="MeshAnimator-URP-SimpleLitForwardPass.hlsl" t="Include" />
+              <e p="MeshAnimator-URP-SimpleLitInput.hlsl" t="Include" />
+              <e p="MeshAnimator-URP-SimpleLitMetaPass.hlsl" t="Include" />
+              <e p="MeshAnimator-URP-Unlit.shader" t="Include" />
+              <e p="MeshAnimator-URP-UnlitInput.hlsl" t="Include" />
+              <e p="MeshAnimator-URP-UnlitMetaPass.hlsl" t="Include" />
+              <e p="MeshAnimator-URP-UnlitPass.hlsl" t="Include" />
+              <e p="README.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PlayableECSManager.cs" t="Include" />
+        <e p="PlayAnimationSample.cs" t="Include" />
+        <e p="PlayCustomPlayableSample.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="AEntityManager.cs" t="Include" />
+          <e p="Playables" t="Include">
+            <e p="DisableCopySkinnedEntityDataToRenderEntitySystem.cs" t="Include" />
+            <e p="PlayableFramework" t="Include">
+              <e p="Animancer.asmdef" t="Include" />
+              <e p="AnimancerComponent.cs" t="Include" />
+              <e p="Examples" t="Include">
+                <e p="01 Basics" t="Include">
+                  <e p="01 Quick Play" t="Include">
+                    <e p="PlayAnimationOnClick.cs" t="Include" />
+                  </e>
+                  <e p="02 Playing and Fading" t="Include">
+                    <e p="PlayingAndFading.cs" t="Include" />
+                  </e>
+                  <e p="03 Sequence Coroutine" t="Include">
+                    <e p="SequenceCoroutine.cs" t="Include" />
+                  </e>
+                  <e p="04 Named Animations" t="Include">
+                    <e p="NamedAnimations.cs" t="Include" />
+                  </e>
+                  <e p="05 Simple Hybrid" t="Include">
+                    <e p="SimpleHybrid.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="02 Fine Control" t="Include">
+                  <e p="01 Spider Bot" t="Include">
+                    <e p="SpiderBot.cs" t="Include" />
+                    <e p="SpiderBotSimple.cs" t="Include" />
+                  </e>
+                  <e p="02 Doors" t="Include">
+                    <e p="ClickToInteract.cs" t="Include" />
+                    <e p="Door.cs" t="Include" />
+                  </e>
+                  <e p="04 Update Rate" t="Include">
+                    <e p="DynamicUpdateRate.cs" t="Include" />
+                    <e p="LowUpdateRate.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="03 Locomotion" t="Include">
+                  <e p="01 Walk And Run" t="Include">
+                    <e p="IdleAndWalk.cs" t="Include" />
+                    <e p="IdleAndWalkAndRun.cs" t="Include" />
+                  </e>
+                  <e p="02 Root Motion" t="Include">
+                    <e p="RootMotion.cs" t="Include" />
+                  </e>
+                  <e p="03 Linear Blending" t="Include">
+                    <e p="LinearBlendTreeLocomotion.cs" t="Include" />
+                    <e p="LinearMixerLocomotion.cs" t="Include" />
+                    <e p="ScreenBoundsTeleporter.cs" t="Include" />
+                  </e>
+                  <e p="04 Directional Blending" t="Include">
+                    <e p="SpiderBotAdvanced.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="04 Directional Sprites" t="Include">
+                  <e p="01 Basic Movement" t="Include">
+                    <e p="Critters" t="Include">
+                      <e p="License.txt" t="Include" />
+                    </e>
+                    <e p="Mage" t="Include">
+                      <e p="License.txt" t="Include" />
+                    </e>
+                    <e p="SpriteMovementController.cs" t="Include" />
+                  </e>
+                  <e p="02 Character Controller" t="Include">
+                    <e p="Medical Examiner" t="Include">
+                      <e p="License.txt" t="Include" />
+                    </e>
+                    <e p="Pirate" t="Include">
+                      <e p="License.txt" t="Include" />
+                    </e>
+                    <e p="SpriteCharacterController.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="05 Events" t="Include">
+                  <e p="01 Footstep Events" t="Include">
+                    <e p="FootstepEvents.cs" t="Include" />
+                    <e p="FootstepEventsAnimation.cs" t="Include" />
+                    <e p="Footsteps On Concrete" t="Include">
+                      <e p="License.txt" t="Include" />
+                    </e>
+                  </e>
+                  <e p="02 Golf Events" t="Include">
+                    <e p="GolfHitController.cs" t="Include" />
+                    <e p="GolfHitControllerAnimancer.cs" t="Include" />
+                    <e p="GolfHitControllerAnimancerHybrid.cs" t="Include" />
+                    <e p="GolfHitControllerAnimation.cs" t="Include" />
+                    <e p="GolfHitControllerAnimationSimple.cs" t="Include" />
+                    <e p="License.txt" t="Include" />
+                  </e>
+                </e>
+                <e p="06 State Machines" t="Include">
+                  <e p="01 Creatures" t="Include">
+                    <e p="Creature.cs" t="Include" />
+                    <e p="CreatureState.cs" t="Include" />
+                  </e>
+                  <e p="02 Interrupt Management" t="Include">
+                    <e p="Creature.cs" t="Include" />
+                    <e p="CreatureState.cs" t="Include" />
+                  </e>
+                  <e p="03 Brains" t="Include">
+                    <e p="Creature.cs" t="Include" />
+                    <e p="CreatureBrain.cs" t="Include" />
+                    <e p="CreatureStats.cs" t="Include" />
+                    <e p="KeyboardBrain.cs" t="Include" />
+                    <e p="States" t="Include">
+                      <e p="CreatureState.cs" t="Include" />
+                      <e p="IdleState.cs" t="Include" />
+                      <e p="LocomotionState.cs" t="Include" />
+                    </e>
+                  </e>
+                  <e p="04 More Brains" t="Include">
+                    <e p="MouseBrain.cs" t="Include" />
+                  </e>
+                  <e p="05 Weapons" t="Include">
+                    <e p="AttackInput.cs" t="Include" />
+                    <e p="AttackState.cs" t="Include" />
+                    <e p="EquipState.cs" t="Include" />
+                    <e p="Read Me.txt" t="Include" />
+                    <e p="RootMotionRedirect.cs" t="Include" />
+                    <e p="Weapon.cs" t="Include" />
+                  </e>
+                  <e p="06 Platformer" t="Include">
+                    <e p="Creature States" t="Include">
+                      <e p="AdvancedJumpState.cs" t="Include" />
+                      <e p="AttackState.cs" t="Include" />
+                      <e p="CreatureState.cs" t="Include" />
+                      <e p="DieState.cs" t="Include" />
+                      <e p="IdleState.cs" t="Include" />
+                      <e p="JumpState.cs" t="Include" />
+                      <e p="TimelineState.cs" t="Include" />
+                    </e>
+                    <e p="Creature.cs" t="Include" />
+                    <e p="CreatureBrain.cs" t="Include" />
+                    <e p="GroundDetector.cs" t="Include" />
+                    <e p="Health.cs" t="Include" />
+                    <e p="Knight" t="Include">
+                      <e p="License.txt" t="Include" />
+                    </e>
+                    <e p="License.txt" t="Include" />
+                    <e p="LocalPlayerBrain.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="07 Layers" t="Include">
+                  <e p="LayerExample.cs" t="Include" />
+                </e>
+                <e p="08 Inverse Kinematics" t="Include">
+                  <e p="01 Puppet" t="Include">
+                    <e p="IKPuppet.cs" t="Include" />
+                    <e p="IKPuppetLookTarget.cs" t="Include" />
+                    <e p="IKPuppetTarget.cs" t="Include" />
+                    <e p="MouseDrag.cs" t="Include" />
+                    <e p="TransformResetter.cs" t="Include" />
+                  </e>
+                  <e p="02 Uneven Ground" t="Include">
+                    <e p="ObstacleTreadmill.cs" t="Include" />
+                    <e p="RaycastFootIK.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="09 Animator Controllers" t="Include">
+                  <e p="01 Hybrid Mini Game" t="Include">
+                    <e p="GolfMiniGame.cs" t="Include" />
+                    <e p="LocomotionState.cs" t="Include" />
+                  </e>
+                  <e p="02 3D Game Kit" t="Include">
+                    <e p="Creatures" t="Include">
+                      <e p="CharacterSelector.cs" t="Include" />
+                      <e p="Creature.cs" t="Include" />
+                      <e p="CreatureBrain.cs" t="Include" />
+                      <e p="CreatureStats.cs" t="Include" />
+                      <e p="KeyboardAndMouseBrain.cs" t="Include" />
+                      <e p="RootMotionRedirect.cs" t="Include" />
+                    </e>
+                    <e p="Read Me.txt" t="Include" />
+                    <e p="States" t="Include">
+                      <e p="AirborneState.cs" t="Include" />
+                      <e p="AttackState.cs" t="Include" />
+                      <e p="CreatureState.cs" t="Include" />
+                      <e p="DieState.cs" t="Include" />
+                      <e p="FlinchState.cs" t="Include" />
+                      <e p="IdleState.cs" t="Include" />
+                      <e p="LandingState.cs" t="Include" />
+                      <e p="LocomotionState.cs" t="Include" />
+                      <e p="RespawnState.cs" t="Include" />
+                    </e>
+                  </e>
+                </e>
+                <e p="10 Animation Jobs" t="Include">
+                  <e p="01 Two Bone IK" t="Include">
+                    <e p="TwoBoneIK.cs" t="Include" />
+                    <e p="TwoBoneIKJob.cs" t="Include" />
+                  </e>
+                  <e p="02 Damping" t="Include">
+                    <e p="Damping.cs" t="Include" />
+                    <e p="DampingJob.cs" t="Include" />
+                  </e>
+                  <e p="03 Lean" t="Include">
+                    <e p="SimpleLean.cs" t="Include" />
+                    <e p="SimpleLeanComponent.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Animancer.Examples.asmdef" t="Include" />
+                <e p="Art" t="Include">
+                  <e p="Default Humanoid" t="Include">
+                    <e p="License.txt" t="Include" />
+                  </e>
+                  <e p="Humanoid Animations" t="Include">
+                    <e p="License.txt" t="Include" />
+                  </e>
+                  <e p="Spider Bot" t="Include">
+                    <e p="License.txt" t="Include" />
+                  </e>
+                  <e p="Stone" t="Include">
+                    <e p="License.txt" t="Include" />
+                  </e>
+                </e>
+                <e p="Code" t="Include">
+                  <e p="AssemblyInfo.cs" t="Include" />
+                  <e p="OrbitControls.cs" t="Include" />
+                  <e p="ShowReadMeOnStartup.cs" t="Include" />
+                  <e p="TimeScale.cs" t="Include" />
+                </e>
+              </e>
+              <e p="HybridAnimancerComponent.cs" t="Include" />
+              <e p="Internal" t="Include">
+                <e p="Collections" t="Include">
+                  <e p="FastComparer.cs" t="Include" />
+                  <e p="KeyedList.cs" t="Include" />
+                  <e p="ObjectPool.cs" t="Include" />
+                </e>
+                <e p="Controller States" t="Include">
+                  <e p="ControllerState.cs" t="Include" />
+                  <e p="Float1ControllerState.cs" t="Include" />
+                  <e p="Float2ControllerState.cs" t="Include" />
+                  <e p="Float3ControllerState.cs" t="Include" />
+                </e>
+                <e p="Core" t="Include">
+                  <e p="Animancer.Lite.xml" t="Include" />
+                  <e p="AnimancerEvent.cs" t="Include" />
+                  <e p="AnimancerEvent.Sequence.cs" t="Include" />
+                  <e p="AnimancerEvent.Sequence.Serializable.cs" t="Include" />
+                  <e p="AnimancerLayer.cs" t="Include" />
+                  <e p="AnimancerNode.cs" t="Include" />
+                  <e p="AnimancerPlayable.cs" t="Include" />
+                  <e p="AnimancerPlayable.LayerList.cs" t="Include" />
+                  <e p="AnimancerPlayable.StateDictionary.cs" t="Include" />
+                  <e p="AnimancerState.cs" t="Include" />
+                  <e p="AnimancerState.EventRunner.cs" t="Include" />
+                  <e p="AnimancerUtilities.cs" t="Include" />
+                  <e p="ClipState.cs" t="Include" />
+                  <e p="FadeMode.cs" t="Include" />
+                  <e p="PlayableAssetState.cs" t="Include" />
+                  <e p="SoloAnimation.cs" t="Include" />
+                </e>
+                <e p="Editor" t="Include">
+                  <e p="AnimancerEditorUtilities.cs" t="Include" />
+                  <e p="AnimancerGUI.cs" t="Include" />
+                  <e p="AnimancerSettings.cs" t="Include" />
+                  <e p="AnimationBindings.cs" t="Include" />
+                  <e p="AnimationGatherer.cs" t="Include" />
+                  <e p="AnimationQueue.cs" t="Include" />
+                  <e p="BoolPref.cs" t="Include" />
+                  <e p="ConversionCache.cs" t="Include" />
+                  <e p="GUIElementWidth.cs" t="Include" />
+                  <e p="Inspector" t="Include">
+                    <e p="AnimancerComponentEditor.cs" t="Include" />
+                    <e p="AnimancerLayerDrawer.cs" t="Include" />
+                    <e p="AnimancerNodeDrawer.cs" t="Include" />
+                    <e p="AnimancerPlayableDrawer.cs" t="Include" />
+                    <e p="AnimancerStateDrawer.cs" t="Include" />
+                    <e p="BaseAnimancerComponentEditor.cs" t="Include" />
+                    <e p="DummyObjectEditor.cs" t="Include" />
+                    <e p="DummySerializableCallback.cs" t="Include" />
+                    <e p="EventNamesAttribute.cs" t="Include" />
+                    <e p="EventSequenceDrawer.cs" t="Include" />
+                    <e p="NamedAnimancerComponentEditor.cs" t="Include" />
+                    <e p="NestedAnimatorEditor.cs" t="Include" />
+                    <e p="ParametizedAnimancerStateDrawer.cs" t="Include" />
+                    <e p="ScriptableObjectEditor.cs" t="Include" />
+                    <e p="TimeRuler.cs" t="Include" />
+                    <e p="TransitionDrawer.cs" t="Include" />
+                  </e>
+                  <e p="OptionalWarning.cs" t="Include" />
+                  <e p="ReadMe.cs" t="Include" />
+                  <e p="Serialization" t="Include">
+                    <e p="Serialization.cs" t="Include" />
+                    <e p="Serialization.ObjectReference.cs" t="Include" />
+                    <e p="Serialization.PropertyReference.cs" t="Include" />
+                  </e>
+                  <e p="Strings.cs" t="Include" />
+                  <e p="TemporarySettings.cs" t="Include" />
+                  <e p="TopologicalSort.cs" t="Include" />
+                  <e p="Transition Preview Window" t="Include">
+                    <e p="TransitionPreviewWindow.cs" t="Include" />
+                    <e p="TransitionPreviewWindow.Inspector.cs" t="Include" />
+                    <e p="TransitionPreviewWindow.Scene.cs" t="Include" />
+                    <e p="TransitionPreviewWindow.Settings.cs" t="Include" />
+                  </e>
+                  <e p="Validate.cs" t="Include" />
+                </e>
+                <e p="Interfaces" t="Include">
+                  <e p="IAnimancerComponent.cs" t="Include" />
+                  <e p="IAnimationClipCollection.cs" t="Include" />
+                  <e p="ICharacterRoot.cs" t="Include" />
+                  <e p="IHasIK.cs" t="Include" />
+                  <e p="IHasKey.cs" t="Include" />
+                  <e p="IPlayableWrapper.cs" t="Include" />
+                  <e p="ITransition.cs" t="Include" />
+                  <e p="IUpdatable.cs" t="Include" />
+                </e>
+                <e p="Mixer States" t="Include">
+                  <e p="CartesianMixerState.cs" t="Include" />
+                  <e p="DirectionalMixerState.cs" t="Include" />
+                  <e p="LinearMixerState.cs" t="Include" />
+                  <e p="ManualMixerState.cs" t="Include" />
+                  <e p="MixerState.cs" t="Include" />
+                  <e p="MixerStateT.cs" t="Include" />
+                </e>
+              </e>
+              <e p="License.txt" t="Include" />
+              <e p="NamedAnimancerComponent.cs" t="Include" />
+              <e p="Utilities" t="Include">
+                <e p="Animation Events" t="Include">
+                  <e p="AnimationEventReceiver.cs" t="Include" />
+                  <e p="EndEventReceiver.cs" t="Include" />
+                  <e p="SimpleEventReceiver.cs" t="Include" />
+                </e>
+                <e p="Animation Jobs" t="Include">
+                  <e p="AnimancerJob.cs" t="Include" />
+                  <e p="AnimatedBool.cs" t="Include" />
+                  <e p="AnimatedFloat.cs" t="Include" />
+                  <e p="AnimatedInt.cs" t="Include" />
+                  <e p="AnimatedProperty.cs" t="Include" />
+                </e>
+                <e p="Custom Fade" t="Include">
+                  <e p="CustomFade.cs" t="Include" />
+                  <e p="CustomFade.Curve.cs" t="Include" />
+                  <e p="CustomFade.Delegate.cs" t="Include" />
+                  <e p="Easing.cs" t="Include" />
+                  <e p="MixerParameterTween.cs" t="Include" />
+                </e>
+                <e p="DirectionalAnimationSet.cs" t="Include" />
+                <e p="DirectionalAnimationSet8.cs" t="Include" />
+                <e p="PixelPerfectPositioning.cs" t="Include" />
+                <e p="State Machine" t="Include">
+                  <e p="Animancer.FSM.asmdef" t="Include" />
+                  <e p="AssemblyInfo.cs" t="Include" />
+                  <e p="DelegateState.cs" t="Include" />
+                  <e p="InputBuffer1.cs" t="Include" />
+                  <e p="InputBuffer2.cs" t="Include" />
+                  <e p="IState.cs" t="Include" />
+                  <e p="StateBehaviour.cs" t="Include" />
+                  <e p="StateMachine1.cs" t="Include" />
+                  <e p="StateMachine2.cs" t="Include" />
+                </e>
+                <e p="TimeSynchronisationGroup.cs" t="Include" />
+                <e p="Transitions" t="Include">
+                  <e p="AnimancerTransition.cs" t="Include" />
+                  <e p="ClipTransition.cs" t="Include" />
+                  <e p="ControllerTransition.cs" t="Include" />
+                  <e p="Float1ControllerTransition.cs" t="Include" />
+                  <e p="Float2ControllerTransition.cs" t="Include" />
+                  <e p="Float3ControllerTransition.cs" t="Include" />
+                  <e p="LinearMixerTransition.cs" t="Include" />
+                  <e p="ManualMixerTransition.cs" t="Include" />
+                  <e p="MixerTransition2D.cs" t="Include" />
+                  <e p="PlayableAssetTransition.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="PlayableSystem.cs" t="Include" />
+            <e p="PlayerSpawnTag.cs" t="Include" />
+            <e p="PlayerTag.cs" t="Include" />
+            <e p="ReferenceGroupCollector.cs" t="Include" />
+            <e p="SpawnSystem.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Shaders" t="Include">
+          <e p="Role" t="Include">
+            <e p="MeshAnimator.cginc" t="Include" />
+            <e p="SSCharacter.cginc" t="Include" />
+            <e p="SSCharacter.shader" t="Include" />
+            <e p="SSCharacterCubemap.shader" t="Include" />
+            <e p="SSCharacterCubemapXray.shader" t="Include" />
+            <e p="SSCharacterTransparent.shader" t="Include" />
+            <e p="SSCharacterTransparentXray.shader" t="Include" />
+            <e p="SSMatcap.shader" t="Include" />
+            <e p="SSMatcapSpec.shader" t="Include" />
+            <e p="SSMatcapTransparent.shader" t="Include" />
+            <e p="SSPlayer.shader" t="Include" />
+            <e p="SSPlayerUI.shader" t="Include" />
+            <e p="SSPlayerUltimate.shader" t="Include" />
+            <e p="SSPlayerXray.shader" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="MeshAnimation2019.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

@@ -1,0 +1,1 @@
+If not using Universal Render Pipeline (URP), it is safe to delete this folder.
