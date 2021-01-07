@@ -19,6 +19,7 @@ public class RacingEnemySpawnerSystem : ComponentSystem {
     private float randomCarSpeedMax;
 
     protected override void OnCreate() {
+        
         random = new Random(56);
 
         counter = 0;

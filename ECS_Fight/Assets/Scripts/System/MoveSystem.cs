@@ -18,11 +18,10 @@ public class MoveSystem : JobComponentSystem
         public uint LastSystemVersion;
         public void Execute(ArchetypeChunk chunk, int chunkIndex, int firstEntityIndex)
         {
-
             var chunkTrans = chunk.GetNativeArray(TranslationType);
             var chunkSpeedDatas = chunk.GetNativeArray(MoveBySpeedDataType);
             var chunkWaveDatas = chunk.GetNativeArray(WaveDataType);
-
+            
             for (var i = 0; i < chunk.Count; i++)
             {
                 var moveSpeed = chunkSpeedDatas[i];
@@ -32,6 +31,7 @@ public class MoveSystem : JobComponentSystem
                + trans.Value.x * waveData.xOffset + trans.Value.y * waveData.yOffset);
 
                 // Rotate something about its up vector at the speed given by RotationSpeed.
+                
                 chunkTrans[i] = new Translation
                 {
                     Value = new float3(trans.Value.x, trans.Value.y, zPos)

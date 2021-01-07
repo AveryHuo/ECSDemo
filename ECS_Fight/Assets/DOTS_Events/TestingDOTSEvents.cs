@@ -16,7 +16,6 @@ using UnityEngine;
 using Unity.Entities;
 using CodeMonkey;
 using System;
-
 public class TestingDOTSEvents : MonoBehaviour {
 
     private void Start() {

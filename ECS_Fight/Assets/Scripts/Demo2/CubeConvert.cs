@@ -8,5 +8,6 @@ public class CubeConvert : MonoBehaviour, IConvertGameObjectToEntity
     public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)
     {
         conversionSystem.DeclareLinkedEntityGroup(this.gameObject);
+        
     }
 }
